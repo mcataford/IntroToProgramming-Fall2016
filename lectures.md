@@ -8,4 +8,4 @@ As the semester goes, this where I'll post the links to each lecture page. Feel 
 
 ## Lectures
 
-- [Lecture 1 (September 29, 2016)](http://www.marccataford.xyz/IntroToProgramming-Fall2016/Lecture-1/)
+- [Lecture 1 (September 29, 2016): Setting up your environment and the Hello World program](http://www.marccataford.xyz/IntroToProgramming-Fall2016/Lecture-1/)
