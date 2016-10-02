@@ -3,16 +3,17 @@ layout: default
 ---
 
 <div class="intro">
-  <h1>Hello!</h1>
+  <h3>Hello!</h3>
   <p>Welcome to <b>Introduction to Programming</b>, a SSMU Minicourse that aims to get you acquainted with computer programming and software development through Java.</p>
+  <p>You will find everything about the course plus some cool material on this website. Feel free to do with it what you want!
 </div>
 
 <div class="posts">
-  <h1>Recently added:</h1>
+  <h3>Recently added:</h3>
   {% for post in site.posts %}
     <article class="post">
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h5>
 
       <div class="entry">
         {{ post.excerpt }}
