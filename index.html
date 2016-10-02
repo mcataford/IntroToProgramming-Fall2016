@@ -10,11 +10,11 @@ layout: default
 
 <div class="posts">
   <h3>Recently added:</h3>
+  <ul>
   {% for post in site.posts %}
-    <article class="post">
 
-      <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h5>
+      <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
 
-    </article>
   {% endfor %}
+   </ul>
 </div>
