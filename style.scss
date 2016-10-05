@@ -113,14 +113,11 @@ img {
 table {
   width: 100%;
   border: 1px solid #ccc;
+  padding: 0.25em;
 }
 
 table th {
   font-weight: bold;
-}
-
-table td {
-  padding: 0.5em;
 }
 
 // Fixes images in popup boxes from Google Translate
