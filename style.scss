@@ -113,11 +113,22 @@ img {
 table {
   width: 100%;
   border: 1px solid #ccc;
-  padding: 0.25em;
 }
 
 table th {
   font-weight: bold;
+}
+
+table tr> td {
+  padding: 0.25em;
+}
+
+table tr > td:first-of-type {
+  padding: 0.25em 0 0.25em 0.25em;
+}
+
+table tr > td:last-of-type {
+  padding: 0.25em; 0.25em 0.25em 0;
 }
 
 // Fixes images in popup boxes from Google Translate
