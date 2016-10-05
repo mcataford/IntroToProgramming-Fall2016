@@ -119,15 +119,15 @@ table th {
   font-weight: bold;
 }
 
-table tr> td {
+table tr > td, table tr > th {
   padding: 0.25em;
 }
 
-table tr > td:first-of-type {
+table tr > td:first-of-type, table tr > th:first-of-type {
   padding: 0.25em 0 0.25em 0.25em;
 }
 
-table tr > td:last-of-type {
+table tr > td:last-of-type, table tr > th:last-of-type {
   padding: 0.25em 0.25em 0.25em 0;
 }
 
