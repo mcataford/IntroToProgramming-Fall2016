@@ -9,4 +9,5 @@ As the semester goes, this where I'll post the links to each lecture page. Feel 
 ## Lectures
 
 - [Lecture 1 (Sept. 29, 2016): Setting up your environment and the Hello World program](http://www.marccataford.xyz/IntroToProgramming-Fall2016/Lecture-1/)
-- [Lecture 2 (Oct. 5, 2016): Variables](http://www.marccataford.xyz/IntroToProgramming-Fall2016/Lecture-2/)
+- [Lecture 2 (Oct. 5, 2016): Variables & arrays](http://www.marccataford.xyz/IntroToProgramming-Fall2016/Lecture-2/)
+- [Lecture 3 (Oct. 13, 2016): Loops](http://www.marccataford.xyz/IntroToProgramming-Fall2016/Lecture-3/)
