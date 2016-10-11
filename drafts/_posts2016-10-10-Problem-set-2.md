@@ -15,7 +15,7 @@ To get used to Eclipse, I recommend that you create a __new Java project__ for t
 
 #### Warm-up exercises
 
-- Create a few variables of each of the types we've seen so far (`int`, `double`, `String`, `char`, `boolean`), and initialize them with valid values. You can then use the `System.out.println` method and see how they are printed out.
-- Now let's do some simple arithmetic with our variables:
-  - Create
+__Before we jump into larger exercises, let's warm up a bit and use the concepts we've learned in [Variables and arrays](http://www.marccataford.xyz/IntroToProgramming-Fall2016/Lecture-2/) and [Loops and conditional statements](http://www.marccataford.xyz/IntroToProgramming-Fall2016/Lecture-3/). If you are unsure of how to solve one of these small problems, go back to the material to make sure you have a fair understanding of the building blocks at your disposal.__
+
+
 
