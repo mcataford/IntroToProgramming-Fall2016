@@ -29,6 +29,25 @@ First, let's play with variable and array declaration:
 
 ### Short exercises
 
+__To better practice the nitty-gritty repetitive structural elements of Java files, try doing each of the following exercises in a different Class file.__
+
+#### Temperature conversion
+
+Our first exercise will be to put together a small snippet of code to convert temperatures given in degrees Celsius to degrees Fahrenheit. The general process follows a well-known algorithm that goes as follows:
+
+1. Multiply the value in degrees Celsius by 9;
+2. Divide the result by 5;
+3. Add 32 – The result is now in degrees Fahrenheit.
+
+Read more about the conversion process [here](https://www.mathsisfun.com/temperature-conversion.html).
+
+1. Before we begin anything, start by creating a new Class file and set up the class / main method structure we have seen in class. If you aren't certain of how to do this, revisit the [Introduction](http://www.marccataford.xyz/IntroToProgramming-Fall2016/Lecture-1/).
+2. In programming, documentation is paramount. Use comments (either using // or /* ... */) to outline the steps or sections of your program. It can reflect the algorithm defined above, as well as any details that will be useful to you in planning the code (variable types, for example).
+3. What type of variable is appropriate to contain a temperature? Think of the difference between `int` and `double`.
+4. The program should take a variable named `degreesCelsius`, and the output should be stored in a variable named `degreesFahrenheit`.
+5. Once your program is done running, it should print _neatly_ the initial Celsius value as well as the Fahrenheit value it converted to. _By neatly, I mean that you should mix words and variables using concatenation. If you don't remember how to do this, take a look at [Variables and arrays](http://www.marccataford.xyz/IntroToProgramming-Fall2016/Lecture-2/)._
+
+_If you are stuck starting the problem, use the model [available here]()._
 
 
 
