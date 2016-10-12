@@ -82,6 +82,15 @@ Now that we have practiced using variables and arrays without loops, and that we
  2. For each student (i.e. for each grade), print "GOOD" if the student's grade is _greater or equal_ than the average calculated in 1., or "NEEDS REVIEW" if their grade was lesser than the average.  
  3. __Challenge:__ If an A is given for any grade greater or equal than 85, a B for any grade between 75 and 85, and a C for anything lesser than 75, use a loop to print the letter grade corresponding to each grade in the array of grades given.
 
+### Longer exercises
+
+### Recipe scaler pt.2
+
+Now that we know that we can use loops to automate repetitive tasks, we can revisit our _Recipe Scaler_ to make it a bit more efficient. Either modify the code you wrote for the Recipe Scaler or start from scratch to write a recipe scaler program that will make good use of loops to print out a given multiple of a recipe described by two arrays. Refer to the original question for the test arrays as well as the general flow of the program.
+
+### Weighted grades
+
+Imagine this: it's
 
 
 
