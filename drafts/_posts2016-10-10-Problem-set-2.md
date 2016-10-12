@@ -19,7 +19,7 @@ __Before we jump into larger exercises, let's warm up a bit and use the concepts
 
 _Note: for each of these exercises, create a new Class file so that you can practice the repetitive parts of setting up a Java file (the class and the main method)._
 
-1. First, we will play with variable declaration. 
+1. First, we will play with variable declaration. Declare a few variables of types `double`, `int`, `String`, `char` and `boolean` and initialize them with values corresponding to their type. Print those variables using the `System.out.println` method. As we've seen when we discussed types, we saw that `double` allows for fractional numbers, while `int` is limited to integers. What happens if you assign an integer to a 
 
 
 
