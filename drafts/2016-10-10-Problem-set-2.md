@@ -70,5 +70,18 @@ _Note: `System.out.println(firstArray[i] + " is at the same index as " + secondA
 
 _If you are stuck starting the problem, use the model [available here](http://www.marccataford.xyz/IntroToProgramming-Fall2016/get-started/RecipeScalerModel.java)._
 
+## Loops
+
+### Shorter exercises
+
+Now that we have practiced using variables and arrays without loops, and that we had to write a lot of redundant code to do things like printing each element of an array, let's throw in some loops to automate repetitive tasks:
+
+1. In the previous __Shorter exercises__, we printed all the elements of an array using indices. Repeat the exercise, but this time, instead of repeating a `System.out.println` instruction over and over again, use a loop to print all elements of the array. You can copy the code you had written before and modify it, or start from scratch. In the latter case, make sure that you _declare_ an array and _initialize_ it using an _array literal_.
+2. Given an array of numerical grades such as `double[] grades = {60.5, 89.7, 97.5, 99.9, 100.0, 60.9, 56.8, 45.0, 35.0, 75.6};` representing the grades that each student in a class you are T.Aing got for the latest midterm:
+ 1. Using a loop, calculate the _average_ of the class;
+ 2. For each student (i.e. for each grade), print "GOOD" if the student's grade is _greater or equal_ than the average calculated in 1., or "NEEDS REVIEW" if their grade was lesser than the average.  
+ 3. __Challenge:__ If an A is given for any grade greater or equal than 85, a B for any grade between 75 and 85, and a C for anything lesser than 75, use a loop to print the letter grade corresponding to each grade in the array of grades given.
+
+
 
 
