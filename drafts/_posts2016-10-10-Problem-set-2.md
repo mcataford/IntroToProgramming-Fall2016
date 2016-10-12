@@ -17,9 +17,18 @@ To get used to Eclipse, I recommend that you create a __new Java project__ for t
 
 __Before we jump into larger exercises, let's warm up a bit and use the concepts we've learned in [Variables and arrays](http://www.marccataford.xyz/IntroToProgramming-Fall2016/Lecture-2/) and [Loops and conditional statements](http://www.marccataford.xyz/IntroToProgramming-Fall2016/Lecture-3/). If you are unsure of how to solve one of these small problems, go back to the material to make sure you have a fair understanding of the building blocks at your disposal.__
 
-_Note: for each of these exercises, create a new Class file so that you can practice the repetitive parts of setting up a Java file (the class and the main method)._
+_Note: Feel free to complete these exercises in a single Class file._
 
-1. First, we will play with variable declaration. Declare a few variables of types `double`, `int`, `String`, `char` and `boolean` and initialize them with values corresponding to their type. Print those variables using the `System.out.println` method. As we've seen when we discussed types, we saw that `double` allows for fractional numbers, while `int` is limited to integers. What happens if you assign an integer to a 
+First, let's play with variable and array declaration:
+
+1. Declare and initialize one `int`, one `double`, one `char`, one `boolean` and one `String`. The initial value of those variables should be appropriate to the type. Once they are all initialized, print each variable using `System.out.println`.
+2. Try assigning an integer to a `double` variable using '='. If you print the variable, what do you notice? (Is it still an integer?)
+3. Try the inverse: assigning a fractional number such as 0.5 to an `int` variable. Is your program allowed to run? What is the error that comes up, if any?
+4. Declare an `int` array of length 10 and initialize it using an _array literal_. Print the elements of your array one at a time using _indices_. Remember, you can access the elements of an array _myArray_ by writing _myArray[i]_ where i is a value between 0 and the length of the array minus one.
+5. Reinitialize the array as an empty array (using _new type[length]_ as we've seen in class): what happens if you print out the elements of the array again?
+
+### Short exercises
+
 
 
 
