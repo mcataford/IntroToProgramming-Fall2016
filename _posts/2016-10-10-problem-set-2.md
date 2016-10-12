@@ -103,5 +103,5 @@ double[] assignments = {50.0, 61.1, 78.9, 63.1, 20.0};
 
 For example, if you had one exam in which you had 50.0%, two quizzes in which you had 80% and 70%, and three assignments in which you had 60%, 70% and 80%, you would first calculate averages (50% for exams, 75% for quizzes and 70% for assigments), and then apply the weight of each type of evaluation on those average to get that your final course grade is 50% * 60% + 75% * 30% + 70% * 10% = 59.5%.
 
-Once you have calculated the final grade, you can use _conditional blocks_ as we've seen in class to find out your letter grade using [McGill's general letter grade scale](https://www.mcgill.ca/study/2015-2016/university_regulations_and_resources/undergraduate/gi_grading_and_grade_point_averages).
+As a __challenge__, once you have calculated the final grade, you can use _conditional blocks_ as we've seen in class to find out your letter grade using [McGill's general letter grade scale](https://www.mcgill.ca/study/2015-2016/university_regulations_and_resources/undergraduate/gi_grading_and_grade_point_averages).
 
