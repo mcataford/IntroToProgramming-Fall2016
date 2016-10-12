@@ -64,9 +64,11 @@ We would like to know how many of each ingredients we would actually need to hav
 
 1. Create a new Class file, as before, and set up the class/main method structure;
 2. The __multiple__ of the recipe your program needs to calculate should be in a variable of type `int` called 'recipeMultiple.' For testing purposes, give it a value for which you can easily do the calculations on paper to validate your program's output;
-3. Your program should print out the quantity of each ingredient required for the recipe as well as the ingredient's name. You will have to use _array indices_ as well as _concatenation_ to print the result neatly. 
+3. Your program should print out the quantity of each ingredient required for the recipe as well as the ingredient's name. You will have to use _array indices_ as well as _concatenation_ to print the result neatly. Keep in mind that you'll be printing a _multiple_ of the recipe, so you should be multiplying somewhere!
 
 _Note: `System.out.println(firstArray[i] + " is at the same index as " + secondArray[i])` would print the elements of each array at the same index, for example, it would bring the first element of each array together if i = 0._
+
+_If you are stuck starting the problem, use the model [available here](http://www.marccataford.xyz/IntroToProgramming-Fall2016/get-started/RecipeScalerModel.java)._
 
 
 
