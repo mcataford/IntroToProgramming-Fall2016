@@ -13,7 +13,7 @@ In Lecture 2, we talked about the different types of variables you can use and h
 
 To get used to Eclipse, I recommend that you create a __new Java project__ for this problem set, and a __new Class file__ for each problem is contains. This will ensure that you repeat and learn the basic program canvas that we discussed in Lecture 1, as we'll be using it throughout the semester. If you aren't sure of how to do this, revisit Lecture 1, where we described how to get set up and run _Hello, world_.
 
-### Warm-up exercises
+### Shorter exercises
 
 __Before we jump into larger exercises, let's warm up a bit and use the concepts we've learned in [Variables and arrays](http://www.marccataford.xyz/IntroToProgramming-Fall2016/Lecture-2/) and [Loops and conditional statements](http://www.marccataford.xyz/IntroToProgramming-Fall2016/Lecture-3/). If you are unsure of how to solve one of these small problems, go back to the material to make sure you have a fair understanding of the building blocks at your disposal.__
 
@@ -27,7 +27,7 @@ First, let's play with variable and array declaration:
 4. Declare an `int` array of length 10 and initialize it using an _array literal_. Print the elements of your array one at a time using _indices_. Remember, you can access the elements of an array _myArray_ by writing _myArray[i]_ where i is a value between 0 and the length of the array minus one.
 5. Reinitialize the array as an empty array (using _new type[length]_ as we've seen in class): what happens if you print out the elements of the array again?
 
-### Short exercises
+### Longer exercises
 
 __To better practice the nitty-gritty repetitive structural elements of Java files, try doing each of the following exercises in a different Class file.__
 
@@ -41,13 +41,32 @@ Our first exercise will be to put together a small snippet of code to convert te
 
 Read more about the conversion process [here](https://www.mathsisfun.com/temperature-conversion.html).
 
-1. Before we begin anything, start by creating a new Class file and set up the class / main method structure we have seen in class. If you aren't certain of how to do this, revisit the [Introduction](http://www.marccataford.xyz/IntroToProgramming-Fall2016/Lecture-1/).
-2. In programming, documentation is paramount. Use comments (either using // or /* ... */) to outline the steps or sections of your program. It can reflect the algorithm defined above, as well as any details that will be useful to you in planning the code (variable types, for example).
-3. What type of variable is appropriate to contain a temperature? Think of the difference between `int` and `double`.
-4. The program should take a variable named `degreesCelsius`, and the output should be stored in a variable named `degreesFahrenheit`.
+1. Before we begin anything, start by creating a new Class file and set up the class / main method structure we have seen in class. If you aren't certain of how to do this, revisit the [Introduction](http://www.marccataford.xyz/IntroToProgramming-Fall2016/Lecture-1/);
+2. In programming, documentation is paramount. Use comments (either using // or /* ... */) to outline the steps or sections of your program. It can reflect the algorithm defined above, as well as any details that will be useful to you in planning the code (variable types, for example);
+3. What type of variable is appropriate to contain a temperature? Think of the difference between `int` and `double`;
+4. The program should take a variable named `degreesCelsius`, and the output should be stored in a variable named `degreesFahrenheit`;
 5. Once your program is done running, it should print _neatly_ the initial Celsius value as well as the Fahrenheit value it converted to. _By neatly, I mean that you should mix words and variables using concatenation. If you don't remember how to do this, take a look at [Variables and arrays](http://www.marccataford.xyz/IntroToProgramming-Fall2016/Lecture-2/)._
 
 _If you are stuck starting the problem, use the model [available here](http://www.marccataford.xyz/IntroToProgramming-Fall2016/get-started/TemperatureConversionModel.java)._
 
-### 
+### Recipe scaler
+
+Now that we can do some arithmetic using variables, let's try to apply our understanding of arrays to put together a tool that will allow us to calculate how much of each ingredients we need to cook certain dishes.
+
+Let a recipe be defined by two arrays: one for ingredients' names and the other for quantities like this: 
+
+```java
+String[] ingredients = {"Flour (cups)", "Butter (cups)", "Brown sugar (cups)", "White sugar (cups)", "Eggs"};
+double[] quantities = {2.25, 1.0, 0.75, 0.75, 2.0};
+```
+
+We would like to know how many of each ingredients we would actually need to have if we wanted to make a double recipe, or a triple, if we're extra-hungry. Of course, we could do some math on a napkin to find this out, but why bother when we know how to ask our computer to compute it for us?
+
+1. Create a new Class file, as before, and set up the class/main method structure;
+2. The __multiple__ of the recipe your program needs to calculate should be in a variable of type `int` called 'recipeMultiple.' For testing purposes, give it a value for which you can easily do the calculations on paper to validate your program's output;
+3. Your program should print out the quantity of each ingredient required for the recipe as well as the ingredient's name. You will have to use _array indices_ as well as _concatenation_ to print the result neatly. 
+
+_Note: `System.out.println(firstArray[i] + " is at the same index as " + secondArray[i])` would print the elements of each array at the same index, for example, it would bring the first element of each array together if i = 0._
+
+
 
