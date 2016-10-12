@@ -47,7 +47,7 @@ Read more about the conversion process [here](https://www.mathsisfun.com/tempera
 4. The program should take a variable named `degreesCelsius`, and the output should be stored in a variable named `degreesFahrenheit`.
 5. Once your program is done running, it should print _neatly_ the initial Celsius value as well as the Fahrenheit value it converted to. _By neatly, I mean that you should mix words and variables using concatenation. If you don't remember how to do this, take a look at [Variables and arrays](http://www.marccataford.xyz/IntroToProgramming-Fall2016/Lecture-2/)._
 
-_If you are stuck starting the problem, use the model [available here]()._
+_If you are stuck starting the problem, use the model [available here](http://www.marccataford.xyz/IntroToProgramming-Fall2016/get-started/TemperatureConversionModel.java)._
 
 ### 
 
