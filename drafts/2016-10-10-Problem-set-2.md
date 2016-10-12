@@ -90,7 +90,19 @@ Now that we know that we can use loops to automate repetitive tasks, we can revi
 
 ### Weighted grades
 
-Imagine this: it's
+It's the end of the semester and you can't quite wait until your transcript is updated to know if you'll pass a certain course. Fortunately, you wrote down each exam, quiz and assignment grade you got, and you have the course outline handy to inform you of the weight of each kind of evaluation.
 
+Given grade arrays such as this:
 
+```java
+double[] exams = {90.0, 67,5};
+double[] quizzes = {100.0, 60.5, 87.9, 63.1};
+double[] assignments = {50.0, 61.1, 78.9, 63.1, 20.0};
+```
+
+... and knowing that exams count for 60% of the grade, quizzes for 30% and assignments for 10%, write a program that would calculate your 'final' grade. Since you have multiple grades in each category, you'll have to use loops to calculate averages, on which you can then use the weighting to get their final contribution to the course grade. 
+
+For example, if you had one exam in which you had 50.0%, two quizzes in which you had 80% and 70%, and three assignments in which you had 60%, 70% and 80%, you would first calculate averages (50% for exams, 75% for quizzes and 70% for assigments), and then apply the weight of each type of evaluation on those average to get that your final course grade is 50% * 60% + 75% * 30% + 70% * 10% = 59.5%.
+
+Once you have calculated the final grade, you can use _conditional blocks_ as we've seen in class to find out your letter grade using [McGill's general letter grade scale](https://www.mcgill.ca/study/2015-2016/university_regulations_and_resources/undergraduate/gi_grading_and_grade_point_averages).
 
