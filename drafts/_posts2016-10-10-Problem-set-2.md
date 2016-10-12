@@ -31,7 +31,7 @@ First, let's play with variable and array declaration:
 
 __To better practice the nitty-gritty repetitive structural elements of Java files, try doing each of the following exercises in a different Class file.__
 
-#### Temperature conversion
+### Temperature conversion
 
 Our first exercise will be to put together a small snippet of code to convert temperatures given in degrees Celsius to degrees Fahrenheit. The general process follows a well-known algorithm that goes as follows:
 
