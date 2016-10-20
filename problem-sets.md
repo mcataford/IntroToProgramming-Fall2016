@@ -15,4 +15,5 @@ This is where you'll find problem sets that you can use to practice what we've s
 
 - [Code share screen (October 20, 2016)](https://codeshare.io/XyiJL)
 - [Part 1: Setting up the basic phone book system](http://www.marccataford.xyz/IntroToProgramming-Fall2016/get-started/PhoneBookPart1.java)
+- [Part 2: Adding functionalities to the phone book](http://www.marccataford.xyz/IntroToProgramming-Fall2016/get-started/PhoneBookPart2.java)
 
