@@ -17,4 +17,5 @@ This is where you'll find problem sets that you can use to practice what we've s
 - [Temporary scratch space (October 20,2016)](https://codeshare.io/dox3K)
 - [Part 1: Setting up the basic phone book system](http://www.marccataford.xyz/IntroToProgramming-Fall2016/get-started/PhoneBookPart1.java)
 - [Part 2: Adding functionalities to the phone book](http://www.marccataford.xyz/IntroToProgramming-Fall2016/get-started/PhoneBookPart2.java)
-
+- [Part 3: Converting the phone book to objects (PhonebookEntry)](http://www.marccataford.xyz/IntroToProgramming-Fall2016/get-started/PhonebookEntry.java)
+- [Part 4: Converting the phone book to objects (The phone book itself)](http://www.marccataford.xyz/IntroToProgramming-Fall2016/get-started/PhonebookObjects.java)
