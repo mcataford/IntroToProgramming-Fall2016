@@ -12,3 +12,4 @@ As the semester goes, this where I'll post the links to each lecture page. Feel 
 - [Topic 2 (Oct. 5, 2016): Variables & arrays](http://www.marccataford.xyz/IntroToProgramming-Fall2016/Lecture-2/)
 - [Topic 3 (Oct. 13, 2016): Loops & conditional blocks](http://www.marccataford.xyz/IntroToProgramming-Fall2016/Lecture-3/)
 - [Topic 4 (Oct. 20, 2016): Conditional blocks](http://www.marccataford.xyz/IntroToProgramming-Fall2016/Lecture-4/)
+- [Topic 5 (Nov. 3, 2016): Methods](http://www.marccataford.xyz/IntroToProgramming-Fall2016/Lecture-5/)
