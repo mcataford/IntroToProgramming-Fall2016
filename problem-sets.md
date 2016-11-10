@@ -21,3 +21,4 @@ This is where you'll find problem sets that you can use to practice what we've s
 - [Part 4: Discovering objects (Object)](http://www.marccataford.xyz/IntroToProgramming-Fall2016/get-started/Student.java)
 - [Part 5: Converting the phone book to objects (PhonebookEntry)](http://www.marccataford.xyz/IntroToProgramming-Fall2016/get-started/PhonebookEntry.java)
 - [Part 6: Converting the phone book to objects (The phone book itself)](http://www.marccataford.xyz/IntroToProgramming-Fall2016/get-started/PhonebookObjects.java)
+- [Our new phonebook](http://www.marccataford.xyz/IntroToProgramming-Fall2016/get-started/PhonebookAllObjects.zip)
