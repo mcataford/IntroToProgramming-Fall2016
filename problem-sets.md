@@ -13,7 +13,7 @@ This is where you'll find problem sets that you can use to practice what we've s
 
 ## ArrayLists
 
-- [ArrayList example + overview of GUIs](http://www.marccataford.xyz/IntroToProgramming-Fall2016/get-started/arraylistsandgui.zip)
+- [ArrayList example + overview of GUIs](http://www.marccataford.xyz/IntroToProgramming-Fall2016/get-started/arraylistandgui.zip)
 
 ### The phone book
 
