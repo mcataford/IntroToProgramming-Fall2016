@@ -11,6 +11,10 @@ This is where you'll find problem sets that you can use to practice what we've s
 
 ## In-class exercise material:
 
+## File I/O
+
+- [File Input/Output](http://www.marccataford.xyz/IntroToProgramming-Fall2016/get-started/Reading.java)
+
 ## ArrayLists
 
 - [ArrayList example + overview of GUIs](http://www.marccataford.xyz/IntroToProgramming-Fall2016/get-started/arraylistandgui.zip)
